@@ -1,5 +1,5 @@
 @echo off
-cd /d "%~dp0"
+cd /d %~dp0
 rmdir /s /q build 2>nul
 robocopy /e res build\tmp > nul
 cd build
